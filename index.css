@@ -22,7 +22,7 @@ body {
     min-height: calc(100vh - 1px);
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-    margin: 5.5rem 1.5rem;
+    
 
     display: flex;
     flex-direction: column;
@@ -88,8 +88,7 @@ a {
     font-family: "Lexend Deca", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    width: 9.375rem;
-    height: 3.125rem;
+    padding: 0.625rem 1.25rem;
     border: 3px solid white;
     border-radius: 2rem;
     cursor: pointer;
@@ -146,7 +145,7 @@ a {
         font-size: 0.938rem;
         line-height: 1.6;
         word-spacing: 1px;
-        margin-bottom: 5.125rem;
+        margin-bottom: 6.65rem;
     }
 
     .container .sedans {
