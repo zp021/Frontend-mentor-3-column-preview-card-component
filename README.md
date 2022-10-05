@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/my-solution-to-the-3-column-card-component-z55FdrsG1v)
 - [Live site URL](https://zp021-3-column-card-component.netlify.app/)
 
 ## My process
