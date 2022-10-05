@@ -116,7 +116,7 @@ a {
 
     /* media query */
 
- @media (min-width: 992px) {
+ @media (min-width: 958px) {
 
     .container {
         display: flex;
