@@ -13,8 +13,8 @@
 --clr-luxury: #091e51;
 
    /* Neutral */
---clr-white: #f2f2f2; /*  (paragraphs) */
---clr-background: #8BC6EC;    /* (background, headings, buttons) */
+--clr-white: #f2f2f2; 
+--clr-background: #8BC6EC;    
 }
 
 body {
@@ -90,8 +90,9 @@ a {
     font-weight: 400;
     width: 9.375rem;
     height: 3.125rem;
-    border: none;
+    border: 3px solid white;
     border-radius: 2rem;
+    cursor: pointer;
     background-color: var(--clr-white);
     transition: 0.5s ease-in-out;
 }
@@ -100,31 +101,20 @@ a {
     color: var(--clr-sedans);
 }
 
-.sedans .btn-learn-more:hover {
-    color: var(--clr-white);
-    background-color: var(--clr-sedans);
-    border: 3px solid white;
-}
-
 .suvs .btn-learn-more {
     color: var(--clr-suvs);
-}
-
-.suvs .btn-learn-more:hover {
-    color: var(--clr-white);
-    background-color: var(--clr-suvs);
-    border: 3px solid white;
 }
 
 .luxury .btn-learn-more {
     color: var(--clr-luxury);
 }
 
-.luxury .btn-learn-more:hover {
-    color: var(--clr-white);
-    background-color: var(--clr-luxury);
-    border: 3px solid white;
+.btn-learn-more:hover {
+    background-color: transparent;
+    color: #fff;
 }
+
+    /* media query */
 
  @media (min-width: 992px) {
 
